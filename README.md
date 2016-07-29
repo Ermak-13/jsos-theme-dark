@@ -1,14 +1,15 @@
 #JSOS Theme Generator
 
-It is theme generator for jsos project - <https://github.com/Ermak-13/jsos>
+It is theme generator for jsos project - <https://github.com/Ermak-13/jsos>. 
+Demo - open <https://ermak-13.github.io/jsos-theme>.
 
 ## Getting Started
 * Fork repository
 * Rename project, like as "jsos-theme-dark"
 * ```npm install```
 * ```gulp server``` & open <http://localhost:8009>
-* ```gulp sass```
-* edit ./stylesheets/globals.scss (or other files)
+* ```gulp dev```
+* edit ./stylesheets/globals.scss && README.md
 * ```git commit -m 'your message'``` ```git push origin master```
 * ```git checkout --orphan gh-pages``` ```git add . && git commit -m 'init github pages'```
 * open http://\<yourname\>.github.io/\<your-theme-dark\>

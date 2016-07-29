@@ -2,7 +2,7 @@
 
 It is theme generator for jsos project - <https://github.com/Ermak-13/jsos>. 
 
-Default Theme Demo - open <https://ermak-13.github.io/jsos-theme>.
+Default theme demo - <https://ermak-13.github.io/jsos-theme>.
 
 ## Getting Started
 * Fork repository

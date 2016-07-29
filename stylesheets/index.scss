@@ -1,0 +1,23 @@
+html {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+@import 'desktop';
+@import 'widget';
+@import 'panel';
+@import 'modal_dialog';
+@import 'nav';
+@import 'perfect_scrollbar/main';

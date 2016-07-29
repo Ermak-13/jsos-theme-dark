@@ -1,7 +1,8 @@
 #JSOS Theme Generator
 
 It is theme generator for jsos project - <https://github.com/Ermak-13/jsos>. 
-Demo - open <https://ermak-13.github.io/jsos-theme>.
+
+Default Theme Demo - open <https://ermak-13.github.io/jsos-theme>.
 
 ## Getting Started
 * Fork repository

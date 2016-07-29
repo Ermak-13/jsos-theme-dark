@@ -11,7 +11,7 @@ It is theme generator for jsos project - <https://github.com/Ermak-13/jsos>
 * edit ./stylesheets/globals.scss (or other files)
 * ```git commit -m 'your message'``` ```git push origin master```
 * ```git checkout --orphan gh-pages``` ```git add . && git commit -m 'init github pages'```
-* open 'http://<yourname>.github.io/<your-theme-dark>'
+* open http://\<yourname\>.github.io/\<your-theme-dark\>
 
 Good Job! ;)
 

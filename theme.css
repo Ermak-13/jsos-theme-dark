@@ -7,7 +7,8 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: black;
+  background-color: white;
+  color: #cccccc;
   margin: 0;
   padding: 0; }
 
@@ -28,13 +29,13 @@ body {
         color: rgba(255, 255, 255, 0.85); }
 
 .widget {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   padding: 0 15px; }
   .widget:hover {
-    background-color: rgba(255, 255, 255, 0.85); }
+    background-color: rgba(0, 0, 0, 0.85); }
   .widget .header {
-    border-bottom: 1px solid #BBB;
+    border-bottom: 1px solid #444;
     padding: 10px 0; }
     .widget .header h1, .widget .header h2, .widget .header h3,
     .widget .header h4, .widget .header h5, .widget .header h6 {
@@ -59,7 +60,7 @@ body {
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
   border-radius: 0;
   margin: 0;
@@ -67,7 +68,7 @@ body {
   .panel .next-shortcuts-arrow,
   .panel .prev-shortcuts-arrow {
     position: absolute;
-    background: rgba(51, 51, 51, 0.85);
+    background: rgba(204, 204, 204, 0.85);
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -76,32 +77,32 @@ body {
     z-index: 9999; }
     .panel .next-shortcuts-arrow:hover,
     .panel .prev-shortcuts-arrow:hover {
-      background: rgba(17, 17, 17, 0.85); }
+      background: rgba(238, 238, 238, 0.85); }
     .panel .next-shortcuts-arrow .arrow-up,
     .panel .prev-shortcuts-arrow .arrow-up {
       display: inline-block;
       border-left: 8px solid transparent;
       border-right: 8px solid transparent;
-      border-bottom: 8px solid #FFF; }
+      border-bottom: 8px solid #000; }
     .panel .next-shortcuts-arrow .arrow-down,
     .panel .prev-shortcuts-arrow .arrow-down {
       display: inline-block;
       border-left: 8px solid transparent;
       border-right: 8px solid transparent;
-      border-top: 8px solid #FFF; }
+      border-top: 8px solid #000; }
     .panel .next-shortcuts-arrow .arrow-vafix,
     .panel .prev-shortcuts-arrow .arrow-vafix {
       line-height: 60px; }
     .panel .next-shortcuts-arrow .arrow-left,
     .panel .prev-shortcuts-arrow .arrow-left {
       display: inline-block;
-      border-right: 8px solid #FFF;
+      border-right: 8px solid #000;
       border-top: 8px solid transparent;
       border-bottom: 8px solid transparent; }
     .panel .next-shortcuts-arrow .arrow-right,
     .panel .prev-shortcuts-arrow .arrow-right {
       display: inline-block;
-      border-left: 8px solid #FFF;
+      border-left: 8px solid #000;
       border-top: 8px solid transparent;
       border-bottom: 8px solid transparent; }
   .panel .shortcuts-container-wrapper {
@@ -117,7 +118,7 @@ body {
       .panel .shortcuts-container-wrapper .shortcuts-container .tooltip-container {
         display: inline-block; }
   .panel:hover {
-    background-color: rgba(255, 255, 255, 0.85); }
+    background-color: rgba(0, 0, 0, 0.85); }
   .panel .shortcut {
     width: 60px;
     height: 60px;
@@ -128,10 +129,10 @@ body {
     .panel .shortcut > span {
       line-height: 60px;
       font-size: 48px;
-      color: #333; }
+      color: #cccccc; }
       .panel .shortcut > span:hover {
         font-size: 52px;
-        color: #111; }
+        color: #eeeeee; }
 
 .modal-dialog {
   position: fixed;
@@ -144,7 +145,7 @@ body {
   margin: 0;
   background: rgba(0, 0, 0, 0.8); }
   .modal-dialog .content {
-    background: white;
+    background: rgba(0, 0, 0, 0.7);
     width: 400px;
     margin: 5% auto; }
 

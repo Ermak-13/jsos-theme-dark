@@ -1,8 +1,8 @@
-#JSOS Theme Generator
+#JSOS Theme Dark
 
-It is theme generator for jsos project - <https://github.com/Ermak-13/jsos>. 
+It is theme for jsos project - <https://github.com/Ermak-13/jsos>. 
 
-Default theme demo - <https://ermak-13.github.io/jsos-theme>.
+Default theme demo - <https://ermak-13.github.io/jsos-theme-dark>.
 
 ## Getting Started
 * Fork repository

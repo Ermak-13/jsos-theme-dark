@@ -1,0 +1,106 @@
+@import 'globals';
+
+.panel {
+  position: absolute;
+  width: $panel-shortcut-size;
+  height: $panel-shortcut-size;
+  background-color: $panel-bg-color;
+
+  border: $panel-border;
+  border-radius: $panel-border-radius;
+  margin: 0;
+  z-index: 9998;
+
+  .next-shortcuts-arrow,
+  .prev-shortcuts-arrow {
+    position: absolute;
+    background: $panel-arrow-container-bg-color;
+    width: $panel-arrow-container-size;
+    height: $panel-arrow-container-size;
+    cursor: $panel-arrow-container-cursor;
+    text-align: $panel-arrow-container-text-align;
+
+    vertical-align: middle;
+    z-index: 9999;
+
+    &:hover {
+      background: $panel-arrow-container-hover-bg-color;
+    }
+
+    .arrow-up {
+      display: $panel-arrow-display;
+      border-left: $panel-arrow-size solid transparent;
+      border-right: $panel-arrow-size solid transparent;
+      border-bottom: $panel-arrow-size solid $panel-arrow-color;
+    }
+
+    .arrow-down {
+      display: $panel-arrow-display;
+      border-left: $panel-arrow-size solid transparent;
+      border-right: $panel-arrow-size solid transparent;
+      border-top: $panel-arrow-size solid $panel-arrow-color;
+    }
+
+    // arrow vertical-align fix
+    .arrow-vafix {
+      line-height: $panel-shortcut-size;
+    }
+
+    .arrow-left {
+      display: $panel-arrow-display;
+      border-right: $panel-arrow-size solid $panel-arrow-color;
+      border-top: $panel-arrow-size solid transparent;
+      border-bottom: $panel-arrow-size solid transparent;
+    }
+
+    .arrow-right {
+      display: $panel-arrow-display;
+      border-left: $panel-arrow-size solid $panel-arrow-color;
+      border-top: $panel-arrow-size solid transparent;
+      border-bottom: $panel-arrow-size solid transparent;
+    }
+  }
+
+  .shortcuts-container-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: $panel-shortcuts-container-wrapper-top;
+    bottom: $panel-shortcuts-container-wrapper-bottom;
+
+    .shortcuts-container {
+      margin-top: $panel-arrow-container-size;
+      margin-left: $panel-arrow-container-size;
+
+      .tooltip-container {
+        display: inline-block;
+      }
+    }
+  }
+
+  &:hover {
+    background-color: $panel-hover-bg-color;
+  }
+
+  .shortcut {
+    width: $panel-shortcut-size;
+    height: $panel-shortcut-size;
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+
+    & > span {
+      line-height: $panel-shortcut-size;
+      font-size: $panel-shortcut-font-size;
+      color: $panel-shortcut-color;
+
+      &:hover {
+        font-size: $panel-shortcut-hover-size;
+        color: $panel-shortcut-hover-color;
+      }
+    }
+  }
+}

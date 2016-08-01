@@ -1,0 +1,46 @@
+$body-bg-color: white;
+$body-color: rgb(204, 204, 204);
+
+$desktop-width: 100%;
+$desktop-height: 100%;
+$desktop-configure-btn-size: 48px;
+$desktop-configure-btn-hover-size: 52px;
+$desktop-configure-btn-bg-color: rgba(255, 255, 255, 0.7);
+$desktop-configure-btn-hover-bg-color: rgba(255, 255, 255, 0.85);
+
+$widget-bg-color: rgba(0, 0, 0, 0.7);
+$widget-hover-bg-color: rgba(0, 0, 0, 0.85);
+$widget-border-radius: 5px;
+$widget-border-color: #444;
+$widget-padding: 0 15px;
+$widget-header-border: 1px solid $widget-border-color;
+$widget-header-padding: 10px 0;
+$widget-icon-margin: 0 2px;
+$widget-body-padding: 10px 0;
+
+$panel-bg-color: $widget-bg-color;
+$panel-hover-bg-color: $widget-hover-bg-color;
+$panel-border: none;
+$panel-border-radius: 0;
+
+$panel-arrow-container-bg-color: rgba(204, 204, 204, 0.85);
+$panel-arrow-container-hover-bg-color: rgba(238, 238, 238, 0.85);
+$panel-arrow-container-size: 25px;
+$panel-arrow-container-cursor: pointer;
+$panel-arrow-container-text-align: center;
+$panel-arrow-display: inline-block;
+$panel-arrow-size: 8px;
+$panel-arrow-color: #000;
+$panel-shortcuts-container-wrapper-top: 0;
+$panel-shortcuts-container-wrapper-bottom: 0;
+
+$panel-shortcut-size: 60px;
+$panel-shortcut-font-size: $desktop-configure-btn-size;
+$panel-shortcut-hover-size: $desktop-configure-btn-hover-size;
+$panel-shortcut-color: rgb(204, 204, 204);
+$panel-shortcut-hover-color: rgb(238, 238, 238);
+
+$modal-dialog-bg-color: rgba(0, 0, 0, 0.8);
+$modal-dialog-content-bg-color: $widget-bg-color;
+$modal-dialog-content-width: 400px;
+$modal-dialog-content-margin: 5% auto;
